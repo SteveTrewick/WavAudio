@@ -7,9 +7,11 @@ import OSLog
 // create a PCM buffer from a float array and write it to a wav file
 // errors are suppressed and logged
 
-class Writer {
+public class Writer {
   
   let log = Logger()
+  
+  public init() {}
   
   public func buffer( samples: [Float], sampleRate: UInt = 48000, amplitude: Float = 1.0 ) -> AVAudioPCMBuffer? {
       

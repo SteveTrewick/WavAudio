@@ -7,7 +7,7 @@ public class Loader {
 
   let log = Logger()
   
-  
+  public init() {}
   // load samples from a wav file
   // errors are suppressed and logged
   
